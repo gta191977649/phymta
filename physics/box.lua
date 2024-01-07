@@ -1,6 +1,6 @@
 Box = class()
 
-local gravity = Vector3(0, 0, -9.81)
+local gravity = CONSTANT.GRAVITY
 local posRotationChange = 0.2
 local rotateObject01 = createObject(1337, 0, 0, 0, 0, 0, 0)
 setElementCollisionsEnabled(rotateObject01, false)
